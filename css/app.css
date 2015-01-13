@@ -28,3 +28,16 @@ body {
 .about-intro {
 	margin-top: 30px;
 }
+
+#self {
+	border-radius: 5px;
+}
+
+.about-page-contact {
+	text-align: center;
+}
+
+.about-page-bottom {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
