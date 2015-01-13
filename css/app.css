@@ -1,0 +1,30 @@
+body {
+	background-color: #eeeeee;
+}
+
+#header-wrapper {
+	background-color: rgba(38, 62, 99, 0.88);
+	padding-top: 1.5em;
+	text-align: center;
+}
+
+.header-text {
+	color: #F5F3F3;
+}
+
+.body-text-wrapper {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.im-wrapper{
+	margin-top: 15px;
+}
+
+.what-wrapper {
+	margin-top: 20px;
+}
+
+.about-intro {
+	margin-top: 30px;
+}
