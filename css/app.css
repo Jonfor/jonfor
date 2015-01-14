@@ -22,7 +22,7 @@ body {
 }
 
 .what-wrapper {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .about-intro {
@@ -30,14 +30,59 @@ body {
 }
 
 #self {
-	border-radius: 5px;
+	border-radius: 1%;
 }
 
 .about-page-contact {
 	text-align: center;
 }
 
+.picture-text {
+	text-align: right;
+}
+
 .about-page-bottom {
 	margin-top: 10px;
 	margin-bottom: 50px;
+}
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -6em;
+}
+.footer, .push {
+	height: 6em;
+}
+
+.footer {
+	background-color: #008CBA;
+	clear: both;
+	padding-bottom: 100px;
+}
+
+.footer .footer-offset {
+	padding-top: 20px;
+}
+
+#footer-links {
+	margin: -52px 0 0 52px;
+	overflow: auto;
+    width: 100%;
+}
+
+#footer-links div {
+	width: 50%;
+	float: left;
+}
+
+#footer-links div a {
+	float: right;
 }
