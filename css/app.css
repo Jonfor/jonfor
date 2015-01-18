@@ -1,0 +1,95 @@
+body {
+	background-color: #eeeeee;
+}
+
+#header-wrapper {
+	background-color: #008CBA;
+	padding-top: 1.5em;
+	text-align: center;
+}
+
+.header-text {
+	color: #F5F3F3;
+}
+
+.mobile-picture-home {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.body-text-wrapper {
+	text-align: justify;
+}
+
+#self {
+	border-radius: 50%;
+	margin-bottom: 1.5em;
+}
+
+#self-text {
+	text-align: center;
+}
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -5em;
+}
+.footer-large, .push {
+	height: 6em;
+}
+
+.footer {
+	background-color: #008CBA;
+}
+
+.footer-small {
+	text-align: center;
+}
+
+.footer-small ul li {
+	width: 100%;
+	list-style-type: none;
+}
+
+.footer-small ul li.stackoverflow {
+	margin-top: 2em;
+}
+
+.footer-small ul li.github {
+	margin-top: 2em;
+}
+
+.footer-large {
+	padding-bottom: 100px;
+}
+
+.footer .footer-offset {
+	padding-top: 20px;
+}
+
+.footer-links {
+	margin: -52px 0 0 52px;
+	overflow: auto;
+    width: 100%;
+}
+
+.footer-links div {
+	width: 50%;
+	float: left;
+}
+
+.footer-links div a {
+	float: right;
+}
+
+.personal-info {
+	text-align: center;
+}
