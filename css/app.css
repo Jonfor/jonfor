@@ -17,28 +17,22 @@ body {
 	text-align: center;
 }
 
-.im-wrapper{
-	margin-top: 15px;
-}
-
-.what-wrapper {
-	margin-top: 10px;
-}
-
 .about-intro {
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 #self {
-	border-radius: 1%;
+	border-radius: 50%;
+	margin-bottom: 1.5em;
 }
 
-.about-page-contact {
+#self-text {
 	text-align: center;
 }
 
-.picture-text {
-	text-align: right;
+.about-page-contact {
+	margin-top: 1em;
+	text-align: center;
 }
 
 .about-page-bottom {
@@ -58,12 +52,32 @@ html, body {
 	height: 100%;
 	margin: 0 auto -6em;
 }
-.footer, .push {
+.footer-large, .push {
 	height: 6em;
 }
 
 .footer {
 	background-color: #008CBA;
+}
+
+.footer-small {
+	text-align: center;
+}
+
+.footer-small ul li {
+	width: 100%;
+	list-style-type: none;
+}
+
+.footer-small ul li.stackoverflow {
+	margin-top: 2em;
+}
+
+.footer-small ul li.github {
+	margin-top: 2em;
+}
+
+.footer-large {
 	clear: both;
 	padding-bottom: 100px;
 }
