@@ -14,7 +14,7 @@ body {
 
 .body-text-wrapper {
 	margin-top: 30px;
-	text-align: center;
+	text-align: justify;
 }
 
 .about-intro {
@@ -78,7 +78,6 @@ html, body {
 }
 
 .footer-large {
-	clear: both;
 	padding-bottom: 100px;
 }
 
@@ -86,17 +85,21 @@ html, body {
 	padding-top: 20px;
 }
 
-#footer-links {
+.footer-links {
 	margin: -52px 0 0 52px;
 	overflow: auto;
     width: 100%;
 }
 
-#footer-links div {
+.footer-links div {
 	width: 50%;
 	float: left;
 }
 
-#footer-links div a {
+.footer-links div a {
 	float: right;
+}
+
+.personal-info {
+	text-align: center;
 }
