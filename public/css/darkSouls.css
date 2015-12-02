@@ -1,0 +1,61 @@
+.center {
+    text-align: center;
+    /*margin-top: 20px;*/
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+.align {
+    vertical-align: top;
+}
+
+body {
+    background-image: url(../img/nito.jpg);
+    color: white;
+}
+
+.list-title {
+    text-align: center
+}
+
+.labels {
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.messages-container {
+    min-height: 480px;
+}
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #EE2C2C;
+    font-size: 2em;
+    overflow: auto;
+}
+
+.ready {
+    color: green;
+}
+
+#messages li {
+    padding: 5px 10px;
+    background: lightgray;
+}
+
+#messages li {
+    border-bottom: solid 1px black;
+}
+
+.checkbox-container {
+    font-size: 17px;
+}
