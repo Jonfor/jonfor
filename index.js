@@ -7,8 +7,10 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var favicon = require('serve-favicon');
 var logger = require('morgan');
+var helmet = require('helmet');
 
 app.use(logger('dev'));
+app.use(helmet());
 app.use(favicon(__dirname + '/public/img/favicon.ico'));
 app.use('/public', express.static(__dirname + '/public'));
 
