@@ -4,58 +4,40 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jonathan Forscher</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="public/css/foundation.css" />
+    <link rel="stylesheet" href="public/css/app.css" />
+    <link rel="shortcut icon" href="public/img/favicon.ico" />
 
-    <script src="js/vendor/modernizr.js"></script>
+      <script src="public/js/vendor/jquery.min.js"></script>
+      <script src="public/js/foundation.js" defer></script>
+      <script src="public/js/app.js" defer></script>
   </head>
   <body>
     <div class="wrapper">
-      <nav class="top-bar" data-topbar role="navigation">
-        <ul class="title-area">
-          <li class="name">
-            <h2><a href="#">Jonfor</a></h2>
-          </li>
-
-          <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-          <ul class="left">
-            <li class="name active">
+      <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li><a href="#"><img src="/public/img/grayfox.jpg" class="icon"></a></li>
+              <li>
               <a href="#">Home</a>
-            </li>
-            <li class="name">
-              <a href="./JonathanF_2015Resume.pdf" target="_blank">Résumé</a>
-            </li>
+              </li>
+              <li>
+                <a href="./resume" target="_blank">Résumé</a>
+              </li>
           </ul>
-        </section>
-      </nav>
+        </div>
+      </div>
 
       <div id="header-wrapper">
         <div class="row">
-          <div class="large-12 columns show-for-large-up">
+          <div class="large-12 columns">
             <h2 class="header-text">Hey there! I'm Jonathan Forscher.</h2>
             <h3 class="header-text">I'm a web developer & programmer currently living in the Greater New York City Area.</h3>
             <h3 class="header-text">I have experience in HTML, CSS, Javascript, PHP, and C.</h3>
           </div>
-          <div class="small-12 columns show-for-small-up hide-for-large-up">
-            <h3 class="header-text">Hey there! I'm Jonathan Forscher.</h3>
-            <h4 class="header-text">I'm a web developer & programmer currently living in the Greater New York City Area.</h4>
-            <h4 class="header-text">I have experience in HTML, CSS, Javascript, PHP, and C.</h4>
-            <a class="button" target="_blank" href="mailto:forscherjonathan@gmail.com?Subject=Hey%20Jon!">CONTACT ME!</a>
-          </div>
         </div>
       </div>
 
-      <div class="row mobile-picture-home">
-        <div class="small-12 columns show-for-small-up hide-for-large-up">
-          <img id="self" src="./img/best_looking_guy_ever.jpg" alt="A picture of me!" title="Get your mouse off of me!">
-          <h5><b>Programmer · Reader</b></h5>
-          <h5><b>Thinker · Gamer</b></h5>
-        </div>
-      </div>
       <div class="row body-text-wrapper">
         <div class="large-8 small-12 columns">
           <h3>
@@ -72,18 +54,18 @@
           <h3>
             My biggest project has been making an FDA-approved webapp currently
             undergoing clinical trial for
-            <img src="./img/JohnsonandJohnsonLogo.svg" alt="Johnson & Johnson">.
-            You can check out some of the open source work on my 
+            <img src="public/img/JohnsonandJohnsonLogo.svg" alt="Johnson & Johnson">.
+            You can check out some of the open source work on my
             <a href="https://github.com/Jonfor">GitHub</a>.
             You can find out more about this project
             <a href="https://clinicaltrials.gov/ct2/show/NCT02299700">here</a>
-            and 
+            and
             <a href="http://www.autismspeaks.org/science/science-news/autism-knowledge-engine-wins-microsoft-hug-award">here</a>.
           </h3>
         </div>
         <div class="large-4 small-12 columns personal-info">
-          <div class="show-for-large-up">
-            <img id="self" src="./img/best_looking_guy_ever.jpg" alt="A picture of me!" title="Get your mouse off of me!">
+          <div>
+            <img id="self" src="public/img/best_looking_guy_ever.jpg" alt="A picture of me!" title="Get your mouse off of me!">
             <h5><b>Programmer · Reader</b></h5>
             <h5><b>Thinker · Gamer</b></h5>
           </div>
@@ -94,55 +76,27 @@
       <div class="push"></div>
     </div>
 
-    <div class="footer show-for-large-up">
+    <div class="footer">
       <div class="row footer-offset">
         <div class="large-12 columns">
           <a href="https://www.linkedin.com/in/jonforscher">
-            <img src="img/linkedIn.png" alt="My LinkedIn" title="Go to my LinkedIn">
+            <img src="public/img/linkedIn.png" alt="My LinkedIn" title="Go to my LinkedIn">
           </a>
           <div class="footer-links footer-links">
             <div>
               <a href="https://github.com/Jonfor">
-                <img src="img/GitHub_Logo.png" alt="My Github" title="Go to my Github" width="145" height="30">
+                <img src="public/img/GitHub_Logo.png" alt="My Github" title="Go to my Github" width="145" height="30">
               </a>
             </div>
             <div>
               <a href="http://stackoverflow.com/users/1827076/jonfor">
-                <img src="img/so-logo.png" alt="My Stackoverflow" title="Go to my Stackoverflow" width="175">
+                <img src="public/img/so-logo.png" alt="My Stackoverflow" title="Go to my Stackoverflow" width="175">
               </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="footer footer-small show-for-small-only">
-      <div class="row footer-offset">
-        <div class="small-12 columns">
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/jonforscher">
-                <img src="img/linkedIn.png" alt="My LinkedIn" title="Go to my LinkedIn" width="80" target="_blank">
-              </a>
-            </li>
-            <li class="stackoverflow">
-              <a href="http://stackoverflow.com/users/1827076/jonfor">
-                <img src="img/so-logo.png" alt="My Stackoverflow" title="Go to my Stackoverflow" width="200" target="_blank">
-              </a>
-            </li>
-            <li class="github">
-              <a href="https://github.com/Jonfor">
-                <img src="img/GitHub_Logo.png" alt="My Github" title="Go to my Github" width="150" target="_blank">
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+
   </body>
 </html>

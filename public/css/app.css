@@ -12,12 +12,8 @@ body {
 	color: #F5F3F3;
 }
 
-.mobile-picture-home {
-	margin-top: 30px;
-	text-align: center;
-}
-
 .body-text-wrapper {
+    margin-top: 2em;
 	text-align: justify;
 }
 
@@ -33,43 +29,33 @@ body {
 * {
 	margin: 0;
 }
+
 html, body {
 	height: 100%;
 }
+
 .wrapper {
 	min-height: 100%;
 	height: auto !important;
-	height: 100%;
 	margin: 0 auto -5em;
 }
-.footer-large, .push {
+
+.active {
+	background-color: #008CBA;
+}
+
+.icon {
+    height: 2em;
+    width: 2em;
+}
+
+.footer, .push {
 	height: 6em;
 }
 
 .footer {
 	background-color: #008CBA;
 	padding-bottom: 1%;
-}
-
-.footer-small {
-	text-align: center;
-}
-
-.footer-small ul li {
-	width: 100%;
-	list-style-type: none;
-}
-
-.footer-small ul li.stackoverflow {
-	margin-top: 2em;
-}
-
-.footer-small ul li.github {
-	margin-top: 2em;
-}
-
-.footer-large {
-	padding-bottom: 100px;
 }
 
 .footer .footer-offset {
