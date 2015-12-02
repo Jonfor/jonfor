@@ -12,7 +12,7 @@ app.use(logger('dev'));
 app.use(favicon(__dirname + '/public/img/favicon.ico'));
 app.use('/public', express.static(__dirname + '/public'));
 
-var server = http.listen(3001, function () {
+var server = http.listen(3000, function () {
     var host = server.address().address;
     var port = server.address().port;
     console.log('Listening at http://%s:%s', host, port);

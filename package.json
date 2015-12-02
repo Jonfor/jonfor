@@ -1,7 +1,8 @@
 {
   "name": "jonfor",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "description": "My website",
+  "private": "true",
   "scripts": {
     "start": "node index.js"
   },

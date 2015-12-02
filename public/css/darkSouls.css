@@ -1,6 +1,5 @@
 .center {
     text-align: center;
-    /*margin-top: 20px;*/
 }
 
 .container-fluid {
@@ -12,7 +11,11 @@
 }
 
 body {
-    background-image: url(../img/nito.jpg);
+    background: url(../img/nito.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     color: white;
 }
 
