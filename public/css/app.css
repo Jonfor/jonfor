@@ -9,6 +9,10 @@ body {
     padding-bottom: 1.5em;
 }
 
+.top-bar {
+	padding: 0;
+}
+
 .header-text {
 	color: #F5F3F3;
 }
