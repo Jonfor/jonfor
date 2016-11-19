@@ -7,10 +7,14 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.13.4",
-    "helmet": "^1.1.0",
-    "morgan": "^1.7.0",
-    "serve-favicon": "^2.3.0",
-    "socket.io": "^1.4.5"
-  }
+    "express": "4.14.0",
+    "helmet": "3.1.0",
+    "morgan": "1.7.0",
+    "serve-favicon": "2.3.2",
+    "socket.io": "1.5.1"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Jonfor/jonfor.git",
+  "author": "Jonfor <jonforscher@gmail.com>",
+  "license": "Apache 2.0"
 }

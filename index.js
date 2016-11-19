@@ -95,7 +95,3 @@ app.get('/dank', function (req, res, next) {
 
     res.sendFile(__dirname + '/darkSouls.html');
 });
-
-app.get('/image', function (req, res, next) {
-    res.sendFile(__dirname + '/image.html');
-});
