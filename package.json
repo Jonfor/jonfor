@@ -1,17 +1,21 @@
 {
   "name": "jonfor",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "My website",
   "private": true,
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "bluebird": "3.4.6",
+    "body-parser": "1.15.2",
     "express": "4.14.0",
     "helmet": "3.1.0",
     "morgan": "1.7.0",
+    "multer": "^1.2.1",
+    "pg-promise": "5.5.0",
     "serve-favicon": "2.3.2",
-    "socket.io": "1.5.1"
+    "socket.io": "1.7.2"
   },
   "main": "index.js",
   "repository": "https://github.com/Jonfor/jonfor.git",
