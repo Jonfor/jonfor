@@ -9,7 +9,7 @@ const options = {
 };
 const pgp = require('pg-promise')(options);
 const databaseName = 'jonfor';
-const connectionString = 'postgres://localhost:5432/' + databaseName;
+const connectionString = 'jonfor://localhost:5432/' + databaseName;
 const db = pgp(connectionString);
 
 function getAllSounds(req, res, next) {
