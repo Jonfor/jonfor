@@ -90,7 +90,7 @@ function updateSound(req, res, next) {
 
 function removeSound(req, res, next) {
     var soundId = parseInt(req.params.id);
-    db.result('DELETE FROM sound WHERE id = $1', soundId)
+    db.result('DELETE FROM sounds WHERE id = $1', soundId)
         .then(function (result) {
             res.status(200)
                 .json({
