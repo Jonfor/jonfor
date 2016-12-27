@@ -95,7 +95,7 @@ function removeSound(req, res, next) {
             res.status(200)
                 .json({
                     success: true,
-                    message: 'Removed' + result.rowCount + 'sound.'
+                    message: 'Removed ' + result.rowCount + ' sound.'
                 });
         })
         .catch(function (err) {
