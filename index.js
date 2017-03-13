@@ -15,8 +15,7 @@ const storage = multer.diskStorage({
         cb(null, 'public/sounds/')
     },
     filename: function (req, file, cb) {
-        file.originalname = encodeURIComponent(file.originalname);
-        cb(null, file.originalname)
+        cb(null, file.originalname.replace(/ /g, "_"))
     }
 });
 const limits = {
