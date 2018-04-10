@@ -1,7 +1,3 @@
-/**
- * Created by jonfor on 12/2/15.
- * Testing shit out~
- */
 const express = require('express');
 const app = express();
 const http = require('http').Server(app);
